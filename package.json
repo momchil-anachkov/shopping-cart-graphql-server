@@ -1,0 +1,38 @@
+{
+  "name": "shopping-cart-server",
+  "version": "0.0.1",
+  "description": "graqphql backend for the shopping-cart electron app",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node --inspect dist",
+    "test": "npm run test"
+  },
+  "keywords": [
+    "shopping-cart",
+    "graphql",
+    "apollo",
+    "express"
+  ],
+  "author": "momchil-anachkov",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mongodb": "^3.1.7",
+    "chai": "^4.1.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "mock-require": "^3.0.2",
+    "nock": "^9.6.1",
+    "sinon": "^6.3.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mocha": "^5.2.5",
+    "@types/node": "^10.9.4",
+    "apollo-server-express": "^2.0.6",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "mongodb": "^3.1.4",
+    "node-json-db": "^0.7.5"
+  }
+}
